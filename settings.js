@@ -82,7 +82,7 @@ module.exports = {
     // that should be served at http://localhost:1880/.
     //httpStatic: '/home/nol/node-red-static/',
 
-    // If you installed the optional node-red-dashboard you can set it's path 
+    // If you installed the optional node-red-dashboard you can set it's path
     // relative to httpRoot
     //ui: { path: "ui" },
 
@@ -156,7 +156,7 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
-        // os:require('os'),
+        crc:require('crc')
         // octalbonescript:require('octalbonescript'),
         // jfive:require("johnny-five"),
         // j5board:require("johnny-five").Board({repl:false})
